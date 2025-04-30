@@ -24,12 +24,14 @@ The synchronous nature of the flip-flops ensures that the shifting of data occur
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
 **Procedure**
-
-/* write all the steps invloved 
+```
+ write all the steps invloved 
 Step 1: Open Quartus II in your laptop. 
 Step 2: Write code to implement SR flipflop using verilog and validating their functionality using their functional tables. 
 Step 3: Run compilation to check for errors. Step 4: Open waveform output and load input values. Step 5: Run simulation to get the output. 
-Step 6: Open in RTL viewers to get RTL diagram output*/
+Step 6: Open in RTL viewers to get RTL diagram output
+
+```
 
 **PROGRAM**
 ```
